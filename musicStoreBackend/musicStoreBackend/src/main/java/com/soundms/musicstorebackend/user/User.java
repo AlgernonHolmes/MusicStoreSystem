@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import org.hibernate.id.factory.spi.GenerationTypeStrategy;
 
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class User {
     //Attributes
     @Id

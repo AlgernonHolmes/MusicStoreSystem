@@ -43,9 +43,9 @@ public class UserRest {
      * @param id_user - the user id;
      * @return - the user data found in the DB;
       --------------------------------------------------------------------------------------------------------*/
-    @GetMapping("/{id_user}")
-    private User getUserById(@PathVariable Long id_user){
-        return userService.getUserById(id_user);
+    @GetMapping("/{id}")
+    private User getUserById(@PathVariable Long id){
+        return userService.getUserById(id);
     }
 
     /*--------------------------------------------------------------------------------------------------------
@@ -60,7 +60,7 @@ public class UserRest {
     }
 
     /*--------------------------------------------------------------------------------------------------------
-     * deleteByIdUser: method that deletes a user from the DB;
+     * deleteUser: method that deletes a user from the DB;
      *
      * @param id - id from the user to be deleted;
      *
