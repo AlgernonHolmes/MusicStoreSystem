@@ -1,0 +1,44 @@
+-- Insert guitar instruments
+INSERT INTO instrument (name, price)
+VALUES 
+    ('guitar/Clapton Signature', 75000),
+    ('guitar/Hendrix Limited Edition', 80000),
+    ('guitar/Page Custom Shop', 90000),
+    ('guitar/Santana Vintage', 85000),
+    ('guitar/Kingston Blues', 70000);
+
+-- Insert violin instruments
+INSERT INTO instrument (name, price)
+VALUES 
+    ('violin/Kreisler Stradivarius', 50000),
+    ('violin/Fitzgerald Jazz Master', 55000),
+    ('violin/Mingus Soloist', 52000),
+    ('violin/Armstrong Classic', 53000),
+    ('violin/Gillespie Swing', 51000);
+
+-- Insert bass instruments
+INSERT INTO instrument (name, price)
+VALUES 
+    ('bass/Wooten Groove', 60000),
+    ('bass/Entwistle Thunder', 65000),
+    ('bass/Clarke Fusion', 62000),
+    ('bass/Pastorius Jazz Bass', 64000),
+    ('bass/Sheehan Attitude', 63000);
+
+-- Insert drums instruments
+INSERT INTO instrument (name, price)
+VALUES 
+    ('drums/Moon Rock Kit', 90000),
+    ('drums/Bonham Legacy', 95000),
+    ('drums/Rich Big Band', 92000),
+    ('drums/Colaiuta Studio Set', 94000),
+    ('drums/Peart Prog Master', 93000);
+
+-- Insert trumpet instruments
+INSERT INTO instrument (name, price)
+VALUES 
+    ('trumpet/Davis Cool', 35000),
+    ('trumpet/Armstrong Smooth', 38000),
+    ('trumpet/Baker Bebop', 36000),
+    ('trumpet/Ferguson High Note', 37000),
+    ('trumpet/Byrd Classic', 34000);
