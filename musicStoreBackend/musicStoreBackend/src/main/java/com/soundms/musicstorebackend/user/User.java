@@ -18,7 +18,7 @@ public class User {
     @Column(name = "password")
     private String password;
 
-    //Constructor
+    //Constructors
     public User(){}
 
     public User(Long id, String name, String email, String password) {
